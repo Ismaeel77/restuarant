@@ -1018,27 +1018,31 @@ video {
 }
 
 .bg-guest1{
-  background-image: url('/imgs/guest-01.webp');
+  background-image: url('./imgs/guest-01.webp');
 }
 
 .bg-guest2{
-  background-image: url('/imgs/guest-02.webp');
+  background-image: url('./imgs/guest-02.webp');
 }
 
 .bg-guest3{
-  background-image: url('/imgs/guest-03.webp');
+  background-image: url('./imgs/guest-03.webp');
 }
 
 .bg-guest4{
-  background-image: url('/imgs/guest-04.webp');
+  background-image: url('./imgs/guest-04.webp');
 }
 
 .bg-landing{
-  background-image:  url('/imgs/home-restaurant-panner-01.webp') ;
+  background-image:  url('./imgs/home-restaurant-panner-01.webp') ;
 }
 
 .bg-cover{
   background-size: cover;
+}
+
+.bg-contain{
+  background-size: contain;
 }
 
 .bg-fixed{
@@ -1047,6 +1051,14 @@ video {
 
 .bg-left{
   background-position: left;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.bg-left-top{
+  background-position: left top;
 }
 
 .bg-no-repeat{
@@ -1302,6 +1314,10 @@ video {
   transition-duration: 150ms;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #main-heading {
   position: relative;
 }
@@ -1449,7 +1465,7 @@ video {
   }
 
   .sm\:bg-intro{
-    background-image: url('/imgs/bg-divider.webp');
+    background-image: url('./imgs/bg-divider.webp');
   }
 
   .sm\:bg-no-repeat{
